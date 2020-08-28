@@ -12,6 +12,10 @@ public class Variables {
         boolean b = true;
         byte myByte = 100;
 
-        System.out.println(myInt);
+        int x = 9;
+        int y = x++;
+        System.out.println(x + " " + y);
+
+
     }
 }
